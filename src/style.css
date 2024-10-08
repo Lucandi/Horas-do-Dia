@@ -1,0 +1,62 @@
+:root{
+    --colorprimary: black;
+    --colorsecondary: white;
+    --coloraccent: rgb(250, 150, 104);
+    --transition: 5.0 ease-in-out;
+    
+}
+body{
+    background-color: rgba(0, 0, 0, 0.925);
+    font-family: "Inter", sans-serif;
+}
+header{
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 70px;
+}
+#horas{
+    text-align: center;
+    color: var(--colorsecondary);
+}
+.inter-thin {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+section{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 15px;
+    width: 500px;
+    margin:auto;
+    box-shadow:  4px 6px 0px rgba(230, 141, 7, 0.76); /* Horizontal offset, vertical offset, blur radius, color */
+}
+.btn{
+    margin-left: 195px;
+    margin-top: 20px;
+    display: inline-block;
+    border: none;
+    padding: 12px 36px;
+    background-color: var(--colorsecondary);
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Especificar propriedades a serem animadas */
+}
+.btn:hover{
+    transform: scale(1.08);
+    background-color: var(--coloraccent);
+    cursor: pointer;
+}
+footer{
+    font-size: 15px;
+    text-align: center;
+    color: var(--colorsecondary);
+    margin-top: 20px;
+}
+#foto {
+    padding-left: 150px;
+    padding-top: 50px;
+    width: 200px;
+    height: 200px;
+}
